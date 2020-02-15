@@ -23,6 +23,11 @@ public class NewTest {
 	  System.out.println("This is f1 test");
   }
   
+  @Test
+  public void f2() {
+	  System.out.println("This is f2 test");
+  }
+
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("beforeMethod");
