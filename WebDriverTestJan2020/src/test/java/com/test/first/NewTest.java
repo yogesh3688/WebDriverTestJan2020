@@ -18,6 +18,11 @@ public class NewTest {
 	  System.out.println("Test ");
   }
   
+  @Test
+  public void f1() {
+	  System.out.println("This is f1 test");
+  }
+  
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("beforeMethod");
