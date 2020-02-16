@@ -20,7 +20,7 @@ public class NewTest {
   
   @Test
   public void f1() {
-	  System.out.println("This is f1 test");
+	  System.out.println("This is f1 test Date"); 
   }
   
   @Test
