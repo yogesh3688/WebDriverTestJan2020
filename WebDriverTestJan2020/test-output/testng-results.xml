@@ -1,49 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+  <suite name="Default suite" duration-ms="627" started-at="2020-03-08T15:17:38Z" finished-at="2020-03-08T15:17:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
-      <class name="com.test.first.NewTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.test.first.NewTest@cb5822]" name="beforeSuite" is-config="true" duration-ms="29" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+    <test name="Default test" duration-ms="627" started-at="2020-03-08T15:17:38Z" finished-at="2020-03-08T15:17:38Z">
+      <class name="com.test.first.DataProviderTest">
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="21" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UserID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.first.NewTest@cb5822]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="3" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.first.NewTest@cb5822]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="3" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.first.NewTest@cb5822]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:com.test.first.NewTest@cb5822]" name="f" duration-ms="13" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="3" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.test.first.NewTest@cb5822]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.test.first.NewTest@cb5822]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.first.NewTest@cb5822]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password7]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.test.first.NewTest@cb5822]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-12-10T13:24:09Z" finished-at="2019-12-10T13:24:09Z">
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password8]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.test.first.NewTest -->
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="AuthTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="AuthTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="Authentication" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AuthTC -->
+        <test-method status="PASS" signature="loginTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="loginTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="TestData" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yogesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nipte]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTC -->
+        <test-method status="PASS" signature="loginTC(java.lang.String, java.lang.String)[pri:0, instance:com.test.first.DataProviderTest@8bd1b6a]" name="loginTC" duration-ms="2" started-at="2020-03-08T15:17:38Z" data-provider="TestData" finished-at="2020-03-08T15:17:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Priyansha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nipte]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTC -->
+      </class> <!-- com.test.first.DataProviderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
