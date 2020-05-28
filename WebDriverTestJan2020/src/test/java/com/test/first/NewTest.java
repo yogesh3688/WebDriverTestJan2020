@@ -69,5 +69,10 @@ public class NewTest {
   public void afterSuite() {
 	  System.out.println("afterSuite");
   }
+  
+  @Test
+  public void myTestOne() {
+	  System.out.println("------- Created on 28 May 2020 -------");
+  }
 
 }
