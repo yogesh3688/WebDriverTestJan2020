@@ -16,6 +16,7 @@ public class DataProviderTest {
 	public void AuthTC(String user,String password) {
 		System.out.println(" User :"+user);
 		System.out.println(" Password :"+password);
+		System.out.println("Test");
 	}
 	
 	@DataProvider
