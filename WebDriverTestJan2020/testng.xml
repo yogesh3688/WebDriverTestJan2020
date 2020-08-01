@@ -3,7 +3,12 @@
 <suite thread-count="2" name="Suite" parallel="methods">
   <test thread-count="2" name="Test" parallel="methods">
     <classes>
-      <class name="com.test.first.NewTest"/>
+      <class name="com.test.first.NewTest">
+      	<methods>
+      		<include name="F.*"/>
+      	</methods>
+      
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

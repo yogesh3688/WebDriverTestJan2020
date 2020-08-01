@@ -8,6 +8,7 @@ public class DataProviderTest {
 
 	@Test(dataProvider ="TestData")
 	public void loginTC(String user,String password) {
+		System.out.println("TestData dataProvider");
 		System.out.println(" User "+user);
 		System.out.println(" Password "+password);
 	}

@@ -35,6 +35,20 @@
 			<version>3.0.0</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.assertthat/selenium-shutterbug -->
+		<dependency>
+			<groupId>com.assertthat</groupId>
+			<artifactId>selenium-shutterbug</artifactId>
+			<version>0.9.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20200518</version>
+		</dependency>
+
+
 
 
 	</dependencies>
