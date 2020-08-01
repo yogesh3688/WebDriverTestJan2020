@@ -106,12 +106,12 @@ public class NewTest {
   public void loginTest() {
 	  System.out.println("----- Inside Login Test Sanity Group");
   }
-  
-  @Parameters({"URL","Name"})
-  @Test
-  public void ParameterTest(String url,String name) {
-	  System.out.println("----- ParameterTest ------- ");
-	  System.out.println("URL is "+url);
-	  System.out.println("Name is "+name);
-  }
+//  
+//  @Parameters({"URL","Name"})
+//  @Test
+//  public void ParameterTest(String url,String name) {
+//	  System.out.println("----- ParameterTest ------- ");
+//	  System.out.println("URL is "+url);
+//	  System.out.println("Name is "+name);
+//  }
 }
