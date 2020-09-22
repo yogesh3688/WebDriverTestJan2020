@@ -3,19 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.first.NewTest">
+      <class name="com.test.extentreport.TestingReport">
         <methods>
-          <include name="ParameterTest"/>
-          <include name="afterSuite"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
-          <include name="beforeSuite"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="config"/>
+          <include name="SeleniumDemo"/>
         </methods>
-      </class> <!-- com.test.first.NewTest -->
+      </class> <!-- com.test.extentreport.TestingReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
