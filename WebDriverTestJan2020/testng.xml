@@ -9,6 +9,9 @@
       	</methods>
       
       </class>
+      <class name="com.test.extentreport">
+      	
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
